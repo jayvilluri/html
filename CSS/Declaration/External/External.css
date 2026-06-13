@@ -1,0 +1,64 @@
+ p {
+            color: rgb(171, 57, 12);
+            font-style: italic;
+        }
+
+        h1 {
+            color: rgb(25, 99, 121);
+            font-style: oblique;
+        }
+
+        h2 {
+            color: rgb(233, 196, 110);
+            font-style: inherit;
+        }
+
+        body {
+            border: double;
+        }
+
+        #h1Declaration {
+            color: rgb(226, 132, 49);
+            font-style: italic;
+        }
+
+        #pFashion {
+            color: rgb(0, 255, 89);
+            font-style: italic;
+        }
+
+        #pProduct {
+            color: rgb(23, 6, 6);
+            font-style: inherit;
+        }
+
+        #imgxyz {
+            border: double;
+            border: dotted;
+            color: rgb(9, 1, 255);
+            border-bottom-right-radius: 120cqmax;
+        }
+
+        #videoPwx {
+            border: dotted;
+            color: rgb(214, 135, 9);
+            border-top-left-radius: 120cap;
+        }
+
+        .btn-hover:hover {
+            background-color: rgb(99, 42, 243);
+            color: rgb(238, 0, 0);
+        }
+
+        .input:focus {
+            border: 2px solid rgb(15, 15, 151);
+        }
+
+        .element-margin{
+
+            margin: 95px;
+        }
+        p,h1,h2{
+            margin: 10px;
+        }
+        *{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}

@@ -18,31 +18,84 @@
             color: rgb(233, 196, 110);
             font-style: inherit;
         }
-        body{
+
+        body {
             border: double;
         }
+
+        #h1Declaration {
+            color: rgb(226, 132, 49);
+            font-style: italic;
+        }
+
+        #pFashion {
+            color: rgb(0, 255, 89);
+            font-style: italic;
+        }
+
+        #pProduct {
+            color: rgb(23, 6, 6);
+            font-style: inherit;
+        }
+
+        #imgxyz {
+            border: double;
+            border: dotted;
+            color: rgb(9, 1, 255);
+            border-bottom-right-radius: 120cqmax;
+        }
+
+        #videoPwx {
+            border: dotted;
+            color: rgb(214, 135, 9);
+            border-top-left-radius: 120cap;
+        }
+
+        .btn-hover:hover {
+            background-color: rgb(99, 42, 243);
+            color: rgb(238, 0, 0);
+        }
+
+        .input:focus {
+            border: 2px solid rgb(15, 15, 151);
+        }
+
+        .element-margin{
+
+            margin: 95px;
+        }
+        p,h1,h2{
+            margin: 10px;
+        }
+        *{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
     </style>
 </head>
 
-<body>
-    <h1>Declaration</h1>
-    <h2>CSS Internal</h2>
-    <P>India's biggest online store for Mobiles, Fashion (Clothes/Shoes), Electronics, Home Appliances, Books, Home,
+<body class="element-margin">
+    <h1  id="h1Declaration">Declaration</h1>
+    <h2 id="h2CSSINternal">CSS Internal</h2>
+    <P id="pFashion">India's biggest online store for Mobiles, Fashion (Clothes/Shoes), Electronics, Home Appliances,
+        Books, Home,
         Furniture, Grocery, Jewelry, Sporting goods, ...</P>
-    <p>td is an Indian e-commerce company, headquartered in Bengaluru. The company initially focused on online book
+    <p id="pE-commerce">td is an Indian e-commerce company, headquartered in Bengaluru. The company initially focused on
+        online book
         sales before expanding into other product categories such as consumer electronics, fashion, home essentials,
         groceries, and lifestyle products.
         Wikipedia</p>
-    <p>Flipkart brings you the thrill of discovery with a treasure trove of products—mobiles, fashion, electronics, home
+    <p id="pFlipkart">Flipkart brings you the thrill of discovery with a treasure trove of products—mobiles, fashion,
+        electronics, home
         appliances, groceries, and more.</p>
-    <p>Flipkart brings you the thrill of discovery with a treasure trove of products—mobiles, fashion, electronics, home
-        appliances, groceries, and more.</p>
-    <div style="border: dotted; color: blue; border-radius: 120cap;">
-        <img src="C:/IMG_0972.jpg" width="200" height="200">
+    <button class="btn-hover">
+        <p id="pProduct">Flipkart brings you the thrill of discovery with a treasure trove of products—mobiles, fashion,
+            electronics, home
+            appliances, groceries, and more.</p>
+    </button>
+    <div>
+        <img id="imgxyz" src="C:/IMG_0972.jpg" width="200" height="200">
     </div>
-    <div style="border: dashed;">
+    <div>
         <video width="300" height="300" controls>
-            <source src="C:/MVI_1976.MP4">
+            <source id="videoPwx" src="C:/MVI_1976.MP4">
         </video>
     </div>
 </body>

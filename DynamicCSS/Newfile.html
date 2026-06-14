@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Font</title>
+        <script>
+            function onclickChange(){
+                var fontSize =document.getElementById("txtFontSize").value;
+                document.getElementById("pText").style.fontSize=fontSize+"px";
+            }
+     
+        </script>
+    </head>
+    <body>
+        <label id="lblFontSize">Font Size</label>
+        <input type="number" id="txtFontSize">
+        <p id="pText">the font size was changed by person</p>
+        <button id="btnChange" onclick="onclickChange()">Change</button>
+     
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <script>
+        function onClickSubmit() {
+            debugger;
+            document.getElementById("divForm").style.border="Dotted";
+            document.getElementById("divForm").style.backgroundColor = "Red";
+            document.getElementById("divForm").style.fontSize ="30px";
+            
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="divForm">
+        
+            <h1 id="h1Form">Form</h1><br>
+            <label id="lblName">Name</label><br>
+            <input id="tetName" type="text"><br>
+            <label id="lblPhoneNumber">Phone numbe</label><br>
+            <input id="NumPhoneNumber" type="number"><br>
+            <br>
+            <button id="btnSubmit" onclick="onClickSubmit()">Submit</button><br>
+        
+    </div>
+</body>
+
+</html>

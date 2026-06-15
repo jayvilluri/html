@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <label>Dynamic CSS Validation</label>
+        <script>
+         function onClickValidation(){
+            debugger;
+            var nameInput = document.getElementById("txtName").value;
+            if (nameInput == "") {
+                document.getElementById("txtName").style.border = "2px solid red";
+                document.getElementById("pValidation").innerText ="Enter the email";
+                document.getElementById("pValidation").style.color ="red";
+            }
+         }
+        </script>
+    </head>
+    <body><br>
+        <label id="lblName" for="txtName">Name*<span style="color: red;"></span></label><br>
+        <input id="txtName" type="text"><br>
+        <span id="pValidation"></span><br>
+        <button id="btnValidation" onclick="onClickValidation()">Validation</button><br> 
+    </body>
+</html>
